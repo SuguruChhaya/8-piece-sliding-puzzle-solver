@@ -1,0 +1,11 @@
+The idea of the A* algorithm makes sense. 
+
+But I need a G-score and an H-score. I am not totally sure how to calculate the H score yet. 
+Tim calculated it with manhattan distance
+
+I need some kind of algo to calculate H score. 
+If 9 is on the right side, it would usually take about 2 additional steps. 
+
+I think I really shouldn't be caring too much about individual steps. 
+Honestly, for the h-score, I think I can just loop through every element and see how far it is 
+from its correct position. Per 1 row difference, I should add 1 to the h score. 
